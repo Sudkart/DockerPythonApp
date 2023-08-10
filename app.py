@@ -1,7 +1,7 @@
 import pandas as pd
 
 def analyze_data(file_path):
-    data = pd.read_csv(file_path)
+    data = pd.read_excel("topic_detect_final_test.xlsx")
     
     # Perform analysis on the data (you can customize this part)
     summary = data.describe()
