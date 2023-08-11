@@ -28,8 +28,8 @@ def main():
         st.write("Uploaded Data:")
         st.write(data)
         
-        X = data.drop('target_column', axis=1)  # Replace 'target_column' with your target column name
-        y = data['target_column']
+        X = data.drop('topic', axis=1)  # Replace 'target_column' with your target column name
+        y = data['topic']
         
         model = LinearRegression()
         model.fit(X, y)
