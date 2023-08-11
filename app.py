@@ -37,5 +37,5 @@ def main():
         st.write("Model Coefficients:", model.coef_)
         st.write("Model Intercept:", model.intercept_)
         
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
